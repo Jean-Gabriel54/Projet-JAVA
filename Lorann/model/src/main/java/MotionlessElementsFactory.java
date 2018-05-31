@@ -22,8 +22,10 @@ public abstract class MotionlessElementsFactory {
     
     private static final Bubble			 BUBBLE			   = new Bubble();
     
+    private static final Ground			GROUND			   = new Ground();
     
-    private static MotionlessElement[] motionlessElements = { WALL_CROSS, WALL_H, WALL_V, DOOR_OPEN, DOOR_CLOSE, MONEY, BUBBLE };
+    
+    private static MotionlessElement[] motionlessElements = { WALL_CROSS, WALL_H, WALL_V, DOOR_OPEN, DOOR_CLOSE, MONEY, BUBBLE, GROUND };
 
     
     
@@ -54,5 +56,9 @@ public abstract class MotionlessElementsFactory {
     
     public static MotionlessElement createBubble() {
     	return BUBBLE;
+    }
+    
+    public static MotionlessElement createGround() {
+    	return GROUND;
     }
 }

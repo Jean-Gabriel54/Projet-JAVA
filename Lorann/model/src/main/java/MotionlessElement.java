@@ -1,4 +1,4 @@
-
+import Element.Permeability;
 
 abstract class MotionlessElement extends Entity {
 
