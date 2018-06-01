@@ -5,8 +5,10 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
+
+
 @SuppressWarnings("serial")
-public class Sprite extends JPanel{
+public class Scene extends JPanel{
 
 	private ImageIcon icoWallCross;
 	private Image imgWallCross;
@@ -81,7 +83,7 @@ public class Sprite extends JPanel{
 	private Image imgMoney;
 	
 	
-	public Sprite () {
+	public Scene () {
 		icoWallCross= new ImageIcon(getClass().getResource("/images/bone.png")); 
 		this.imgWallCross = this.icoWallCross.getImage();//associe icoWallCross a imgWallCross
 		
@@ -162,5 +164,9 @@ public class Sprite extends JPanel{
 		
 		icoMonster2= new ImageIcon(getClass().getResource("/images/monster2.png")); 
 		this.imgMonster2 = this.icoMonster2.getImage();
-	}
+	
+	this.setFocusable(true);//pour ecouter l'écran
+	this.requestFocusInWindow();//pour récuperer le focus
+	this.addKeyListener(new Clavier());
+}
 }

@@ -1,64 +1,67 @@
+import java.io.IOException;
+
 import fr.exia.insanevehicles.element.motionless.MotionlessElement;
 
-public abstract class MotionlessElementsFactory {
 
-    /** The Constant DITCH. */
+public abstract class Factory {
+
+
+	/*
+
     private static final WallCross       WALL_CROSS        = new WallCross();
 
-    /** The Constant DITCH_RIGHT. */
+
     private static final WallH   	   	 WALL_H            = new WallH();
 
-    /** The Constant DITCH_LEFT. */
+   
     private static final WallV    		 WALL_V            = new WallV();
  
-    /** The Constant TREE. */
+   
     private static final DoorOpen          DOOR_OPEN       = new DoorOpen();
 
-    /** The Constant MACADAM. */
     private static final DoorClose       DOOR_CLOSE        = new DoorClose();
 
-    /** The Constant OBSTACLE. */
     private static final Money   		   MONEY           = new Money();
     
     private static final Bubble			 BUBBLE			   = new Bubble();
     
     private static final Ground			GROUND			   = new Ground();
     
-    
     private static MotionlessElement[] motionlessElements = { WALL_CROSS, WALL_H, WALL_V, DOOR_OPEN, DOOR_CLOSE, MONEY, BUBBLE, GROUND };
+    */
 
     
     
     
-    public static MotionlessElement createWallCross() {
-    	return WALL_CROSS;
+    public static WallCross createWallCross() throws IOException {
+    	return new WallCross();
    }
     
-    public static MotionlessElement createWallH() {
-    	return WALL_H;
+    public static WallH createWallH() throws IOException {
+    	return new WallH();
     }
     
-    public static MotionlessElement createWallV() {
-    	return WALL_V;
+    public static WallV createWallV() throws IOException {
+    	return new WallV();
     }
     
-    public static MotionlessElement createDoorOpen() {
-    	return DOOR_OPEN;
+    public static DoorOpen createDoorOpen() throws IOException {
+    	return new DoorOpen();
     }
     
-    public static MotionlessElement createDoorClose() {
-    	return DOOR_CLOSE;
+    public static DoorClose createDoorClose() throws IOException {
+    	return new DoorClose();
     }
     
-    public static MotionlessElement createMoney() {
-    	return MONEY;
+    public static Money createMoney() throws IOException {
+    	return new Money();
     }
     
-    public static MotionlessElement createBubble() {
-    	return BUBBLE;
+    public static Bubble createBubble() throws IOException {
+    	return new Bubble();
     }
     
-    public static MotionlessElement createGround() {
-    	return GROUND;
+    public static Ground createGround() throws IOException {
+    	return new Ground();
     }
 }
