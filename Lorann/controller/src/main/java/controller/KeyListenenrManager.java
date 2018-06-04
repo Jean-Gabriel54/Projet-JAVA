@@ -16,10 +16,16 @@ package controller;
 	
 	import javax.swing.JTextField;
 	
-	 
+	 /**
+	     * This code has for goal to control the key event of the game
+	     */
 	
 	public class KeyListenenrManager {
 	
+		/**
+		 * Name of the class in accordance with our class diagram controller
+		 * @param args
+		 */
 	 
 	
 	    public static void main(String args[]) {
@@ -27,50 +33,65 @@ package controller;
 	 
 	
 	  JFrame frame = new JFrame("Key Listener");
-
+      /**
+       * JFrame allows us to create some object of window or screen type, in this case the window will be Key Listener
+       */
 	 
 	
 	  Container contentPane = frame.getContentPane();
 	
-	 
+	 /*
+	  * The container is an graphic object able to contain other graphic object
+	  */
 	
 	  KeyListener listener = new KeyListener() {
 	
-	 
+	 /*
+	  * (non-Javadoc)
+	  * @see java.awt.event.KeyListener#keyPressed(java.awt.event.KeyEvent)
+	  */
 	
-	@Override
+	
 	
 	 
 	
 	public void keyPressed(KeyEvent event) {
 	
-	 
+	 /*
+	  * This class instantiates a unique key event namely key Pressed
+	  */
 	
 	    printEventInfo("Key Pressed", event);
-	
+	/*
+	 * This event allows us to know which key has been pressed
+	 */
 	 
 	
 	}
 	
 	 
 	
-	@Override
+
 	
 	
 	
 	public void keyReleased(KeyEvent event) {
 	
-	 
+	 /*
+	  * This class initiates a unique key event namely Key Released
+	  */
 	
 	    printEventInfo("Key Released", event);
-	
+	/*
+	 * This event allows us to know which key has been released after the pressing
+	 */
 	 
 	
 	}
 	
 	 
 	
-	@Override
+
 	
 	 
 	
@@ -88,10 +109,14 @@ package controller;
 	
 	private void printEventInfo(String str, KeyEvent e) {
 	
-	 
+	 /*
+	  * 
+	  */
 	
 	    System.out.println(str);
-	
+	/*
+	 * Allow to display some text 
+	 */
 	 
 	
 	    int code = e.getKeyCode();
@@ -136,7 +161,9 @@ package controller;
 	
 	private String keyboardLocation(int keybrd) {
 	
-	 
+	 /*
+	  * Here we have all information about the location of our key
+	  */
 	
 	    switch (keybrd) {
 	
