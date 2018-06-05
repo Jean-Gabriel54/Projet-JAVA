@@ -1,4 +1,4 @@
-package objet;
+package jeu;
 
 public class Objet {
 	private int largeur, hauteur;

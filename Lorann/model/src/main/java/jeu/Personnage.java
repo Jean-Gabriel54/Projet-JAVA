@@ -1,4 +1,4 @@
-package personnage;
+package jeu;
 
 import java.awt.Image;
 
