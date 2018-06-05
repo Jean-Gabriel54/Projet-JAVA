@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-05-22" view-index="0" gantt-divider-location="394" resource-divider-location="300" version="2.8.8" locale="fr">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="248" order="0"/>
+        <field id="tpd4" name="Date de début" width="47" order="1"/>
+        <field id="tpd5" name="Date de fin" width="95" order="2"/>
+        <option id="color.recent"><![CDATA[#ffff33 #0000ff #990000 #cc00cc #00ff00 #ffff00 #f4f4f4]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Decouverte Du Sujet" color="#ffff00" meeting="false" start="2018-05-28" duration="1" complete="0" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="Pointage JDK" color="#ffff00" meeting="false" start="2018-05-28" duration="1" complete="0" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="Création de l'architecture propre" color="#ffff00" meeting="false" start="2018-05-28" duration="1" complete="0" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="Création de la BDD" color="#0000ff" meeting="false" start="2018-05-29" duration="1" complete="0" thirdDate="2018-05-29" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Mise en relation Programme BDD" color="#0000ff" meeting="false" start="2018-06-01" duration="1" complete="0" thirdDate="2018-06-01" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="Diagramme de Composants" color="#ffff00" meeting="false" start="2018-05-28" duration="1" complete="0" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true"/>
+        <task id="6" name="Repertoire Github" color="#990000" meeting="false" start="2018-05-28" duration="1" complete="0" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="Diagramme de Classe Model" color="#ffff00" meeting="false" start="2018-05-28" duration="4" complete="0" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Diagramme de Class View" color="#ffff00" meeting="false" start="2018-05-29" duration="3" complete="0" thirdDate="2018-05-29" thirdDate-constraint="0" expand="true"/>
+        <task id="9" name="Diagramme de Classe Controller" color="#ffff00" meeting="false" start="2018-05-29" duration="3" complete="0" thirdDate="2018-05-29" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Diagramme de Class Main" color="#ffff00" meeting="false" start="2018-05-31" duration="1" complete="0" thirdDate="2018-05-31" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="Diagramme de Classe Contract" color="#ffff00" meeting="false" start="2018-05-29" duration="3" complete="0" thirdDate="2018-05-29" thirdDate-constraint="0" expand="true"/>
+        <task id="35" name="Diagrammes de sequences" color="#ffff33" meeting="false" start="2018-05-29" duration="3" complete="0" thirdDate="2018-05-29" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="Programation" color="#ffff00" meeting="false" start="2018-05-31" duration="6" complete="0" thirdDate="2018-05-31" thirdDate-constraint="0" expand="true"/>
+        <task id="13" name="JavaDoc" color="#00ff00" meeting="false" start="2018-06-04" duration="1" complete="0" thirdDate="2018-06-04" thirdDate-constraint="0" expand="true"/>
+        <task id="14" name="Documentation Technique" color="#990000" meeting="false" start="2018-06-02" duration="4" complete="0" thirdDate="2018-06-02" thirdDate-constraint="0" expand="true"/>
+        <task id="15" name="Gestion des sprites" color="#cc00cc" meeting="false" start="2018-05-31" duration="6" complete="0" thirdDate="2018-05-31" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="Création des Maps" color="#990000" meeting="false" start="2018-05-31" duration="1" complete="0" thirdDate="2018-05-31" thirdDate-constraint="0" expand="true"/>
+        <task id="18" name="Powerpoint" color="#0000ff" meeting="false" start="2018-06-05" duration="1" complete="0" thirdDate="2018-06-05" thirdDate-constraint="0" expand="true"/>
+        <task id="19" name="Soutenance" color="#ffff33" meeting="false" start="2018-06-06" duration="1" complete="0" thirdDate="2018-06-06" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Hugo Dimoff" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Mickael Michel" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Gilles Loumouamou" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Jean-Gabriel Dron" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="1" resource-id="2" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="2" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="1" resource-id="3" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="2" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
