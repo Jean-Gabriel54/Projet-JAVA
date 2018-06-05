@@ -1,4 +1,4 @@
-package Element;
+package jeu;
 
 import java.sql.SQLException;
 

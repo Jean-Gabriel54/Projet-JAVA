@@ -5,4 +5,4 @@
  * @author apoca
  *
  */
-package Element;
+package personnage;
