@@ -7,7 +7,7 @@ public class Chrono implements Runnable {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-		while (true) {
+		while (true) { //Boucle infini
 			/*if(Main.scene.getxPos()<-1) {
 				Main.scene.setxPos(0);
 			
@@ -23,7 +23,7 @@ public class Chrono implements Runnable {
 			*/
 
 			
-			Main.scene.repaint();
+			Main.scene.repaint(); // repaint de la fenetre toute les PAUSES=100s
 			try {
 				Thread.sleep (PAUSE);
 			} catch (InterruptedException e) {

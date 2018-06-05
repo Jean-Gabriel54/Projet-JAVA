@@ -12,7 +12,7 @@ public class Money extends Objet{
 	
 	public Money(int x, int y) {
 		// TODO Auto-generated constructor stub
-		super(x,y,43,65);
+		super(x,y,32,32);
 		icoMoney= new ImageIcon(getClass().getResource("/images/purse.png")); 
 		this.imgMoney = this.icoMoney.getImage();
 		

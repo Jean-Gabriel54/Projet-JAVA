@@ -17,7 +17,7 @@ public class Objet {
 
 
 
-	public int getLargeur() {
+	public int getLargeur() { //Getter et Setter
 		return largeur;
 	}
 	public void setLargeur(int largeur) {

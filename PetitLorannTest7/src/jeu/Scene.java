@@ -47,7 +47,7 @@ public class Scene extends JPanel{
 		// TODO Auto-generated constructor stub
 		super();
 		//this.xFond2 = 700;
-		this.xFond1=0; //deborde de l'écran
+		this.xFond1=0; //Initialisation des valeurs
 		this.dx=0;
 		this.dy=0;
 		this.xPos=-1;
@@ -69,17 +69,15 @@ public class Scene extends JPanel{
 		
 	
 		
-		lorann= new Lorann(300,200);
-		
-		bloc1= new Money (256,96);
+	
 		
 		
 						
 		this.setFocusable(true);//pour ecouter l'écran
 		this.requestFocusInWindow();//pour récuperer le focus
-		this.addKeyListener(new Clavier());
+		this.addKeyListener(new Clavier()); //dire que Clavier s'occuper de Keylistener
 		
-		Thread chronoEcran = new Thread(new Chrono());
+		Thread chronoEcran = new Thread(new Chrono()); //Chrono s'occupe du thread de repaint
 		chronoEcran.start();
 	}
 	
@@ -88,7 +86,7 @@ public class Scene extends JPanel{
 	
 	
 	
-	public int getxPos() {
+	public int getxPos() { //Getter et setters des variables
 		return xPos;
 	}
 	public void setxPos(int xPos) {
@@ -143,12 +141,10 @@ public class Scene extends JPanel{
 
 	public void deplacementFond() {
 		
-		if(this.yPos>0) {
-			this.yPos=this.yPos+this.dy;}
+		if(this.yPos>=0) {
+			this.yPos=this.yPos+this.dy;}  //incrementer ou decrementer par rapport aux touches préssée
 		
-		else if(this.yPos<0) {
-				this.yPos=this.yPos-this.dy;
-			}
+	
 		
 
 	

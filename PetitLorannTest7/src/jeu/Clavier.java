@@ -12,20 +12,20 @@ public class Clavier implements KeyListener{
 	@Override
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
-		if (e.getKeyCode()==KeyEvent.VK_RIGHT){
-			if (Main.scene.getxPos()<-0) {
+		if (e.getKeyCode()==KeyEvent.VK_RIGHT){ //Quand la touche fleche droite et pressé
+			if (Main.scene.getxPos()<0) { //Normalement empeche de toucher/sortir les bords de la map
 				Main.scene.setxPos(0);}
 			
 			Main.scene.lorann.setMarche(true);
 			Main.scene.lorann.setVersDroite(true);
-			Main.scene.setDx(32);
+			Main.scene.setDx(32); //Pixel de marche
 
 		}
 		
 		
 		else if (e.getKeyCode()==KeyEvent.VK_LEFT) {
-			if (Main.scene.getxPos()<-0) {
-				Main.scene.setxPos(0);
+			if (Main.scene.getxPos()>608) {
+				Main.scene.setxPos(544);
 			}
 			
 		
