@@ -1,0 +1,3 @@
+SELECT element.type, element.x, element.y
+FROM element, map
+WHERE element.n_carte = map.ID

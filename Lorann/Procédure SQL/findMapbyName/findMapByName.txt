@@ -1,0 +1,1 @@
+SELECT * FROM map WHERE map.ID = id LIMIT 1
